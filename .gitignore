@@ -17,3 +17,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+app/Models/LLG.php
+resources/views/layouts/guest.blade copy.php
+resources/views/livewire/pages/auth/login.blade copy.php
+

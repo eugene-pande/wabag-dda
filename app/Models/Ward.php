@@ -20,7 +20,7 @@ class Ward extends Model
      */
     public function llg()
     {
-        return $this->belongsTo(LLG::class);
+        return $this->belongsTo(Llg::class);
     }
 
     /**

@@ -304,12 +304,12 @@
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                 <div class="p-6">
-                    <div class="text-4xl font-serif font-bold mb-2">42</div>
-                    <div class="text-wabag-yellow font-medium">Completed Projects</div>
+                    <div class="text-4xl font-serif font-bold mb-2">1 Million</div>
+                    <div class="text-wabag-yellow font-medium">Total Population</div>
                 </div>
                 <div class="p-6">
                     <div class="text-4xl font-serif font-bold mb-2">18</div>
-                    <div class="text-wabag-yellow font-medium">Ongoing Projects</div>
+                    <div class="text-wabag-yellow font-medium">Tatol Wards</div>
                 </div>
                 <div class="p-6">
                     <div class="text-4xl font-serif font-bold mb-2">15</div>

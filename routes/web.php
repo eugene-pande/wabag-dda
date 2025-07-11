@@ -22,6 +22,10 @@ Route::view('/about', 'public.about.about')->name('about');
 Route::view('/about/mps-message', 'public.about.mps-message')->name('mps-message');
 Route::view('/about/ceos-message', 'public.about.ceos-message')->name('ceos-message');
 
+Route::view('/development-profile', 'public.development-profile.development-profile')->name('development-profile');
+Route::view('/government','public.administration.government' )->name('government');
+
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');

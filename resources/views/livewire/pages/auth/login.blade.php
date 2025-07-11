@@ -75,7 +75,7 @@ new #[Layout('layouts.guest')] class extends Component
         <div class="mt-3">
             <button type="submit"
                     class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-wabag-green hover:bg-wabag-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-wabag-yellow transition-colors">
-                {{ __('Log In') }}
+                {{ __('Login') }}
             </button>
         </div>
     </form>

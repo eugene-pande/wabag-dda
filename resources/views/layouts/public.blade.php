@@ -70,7 +70,8 @@
             background: linear-gradient(to right,
                 #000000 0% 25%,
                 #FFD700 25% 50%,
-                #1A4314 50% 75%,
+               /* #1A4314 50% 75%,*/
+                #000000 50% 75%,
                 #FFFFFF 75% 100%);
         }
 
@@ -136,16 +137,19 @@
                             <div class="dropdown-menu absolute left-0 mt-4 rounded-md py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                                 <a href="{{ route('mps-message') }}" class="block px-4 py-2 hover:bg-wabag-green">MP's Message</a>
                                 <a href="{{ route('ceos-message') }}" class="block px-4 py-2 hover:bg-wabag-green">CEO's Messsage</a>
+                                <a href="{{ route('government') }}" class="block px-4 py-2 hover:bg-wabag-green">Government</a>
                             </div>
                         </li>
+                        <li><a href="{{ route('government') }}" class="hover:text-wabag-yellow transition font-medium">Government</a></li>
+                        <li><a href="{{ route('development-profile') }}" class="hover:text-wabag-yellow transition font-medium">Development Profile</a></li>
                         <li><a href="/projects" class="hover:text-wabag-yellow transition font-medium">Projects</a></li>
                         <li><a href="/news" class="hover:text-wabag-yellow transition font-medium">News</a></li>
                         <li><a href="/contact" class="hover:text-wabag-yellow transition font-medium">Contact</a></li>
-                        {{--<li>
-                            <a href="/portal" class="btn-primary px-6 py-2 rounded-full font-semibold text-sm uppercase tracking-wider">
+                        <li>
+                            <a href="{{ route('login') }}" class="btn-primary px-6 py-2 rounded-full font-semibold text-sm uppercase tracking-wider">
                                 Portal
                             </a>
-                        </li>--}}
+                        </li>
                     </ul>
                 </nav>
 
@@ -263,11 +267,10 @@
 
             <!-- Information Links -->
             <div class="flex flex-wrap justify-center gap-4 md:gap-8 mt-12 text-sm opacity-60">
-                <a href="/information/terms" class="hover:text-wabag-yellow transition">Terms & Conditions</a>
+                <a href="/information/terms" class="hover:text-wabag-yellow transition">Terms</a>
                 <a href="/information/privacy" class="hover:text-wabag-yellow transition">Privacy Policy</a>
                 <a href="/sitemap" class="hover:text-wabag-yellow transition">Sitemap</a>
                 <a href="/information/accessibility" class="hover:text-wabag-yellow transition">Accessibility</a>
-                <a href="/information/feedback" class="hover:text-wabag-yellow transition">Feedback</a>
                 <a href="{{ route('login') }}" class="hover:text-wabag-yellow transition">Admin Login</a>
             </div>
 
@@ -277,7 +280,7 @@
             <!-- Copyright -->
             <div class="text-center pt-6 text-sm opacity-60">
                 <p>&copy; {{ date('Y') }} Wabag District Development Authority. All rights reserved.</p>
-                <p class="text-sm">Made with ❤️ by <a href="https://github.com/eugene-pande" class="text-blue-500">Eugene Pande</a></p>
+                {{--<p class="text-sm">Made with ❤️ by <a href="https://github.com/eugene-pande" class="text-blue-500">Eugene Pande</a></p>--}}
             </div>
         </div>
     </footer>

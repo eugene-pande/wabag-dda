@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('wards', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique();
-            $table->string('code')->unique()->nullable();
+            $table->integer('ward_number');
+            $table->string('name');
+            $table->string('code')->nullable();
             $table->foreignId('llg_id')->constrained('llgs');
             $table->timestamps();
         });
